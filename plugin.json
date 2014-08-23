@@ -1,0 +1,12 @@
+{
+    "ID":"ARTUR23B084D422DB66FE0C79D6C2A6A",
+    "ActionKeyword":"tz",
+    "Name":"Wox.Plugin.Timezone",
+    "Description":"Check the time in a Timezone",
+    "Author":"arkraft",
+    "Version":"1.0",
+    "Language":"csharp",
+    "Website":"http://www.getwox.com/plugin",
+    "ExecuteFileName":"Wox.Plugin.Timezone.dll",
+    "IcoPath":"kworldclock.png"
+}
