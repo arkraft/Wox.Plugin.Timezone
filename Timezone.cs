@@ -166,7 +166,7 @@ namespace Wox.Plugin.Timezone
             Result r = new Result() {
                 Title = city.Name,
                 SubTitle = "Remove '" + city.Name + "' from your list",
-                IcoPath = "flags\\" + city.Country.ToLower() + ".png",
+                IcoPath = city.IcoPath,
                 Action = e => {
                     remove(city.Name);
                     save();
@@ -186,7 +186,7 @@ namespace Wox.Plugin.Timezone
             Result r = new Result() {
                 Title = city.Name + ": " + String.Format("{0:t}", time),
                 SubTitle = String.Format("{0:D}", time) + seperator + city.Country + seperator + city.TimeZoneName,
-                IcoPath = "flags\\" + city.Country.ToLower().Replace(' ', '_') + ".png",
+                IcoPath = city.IcoPath,
                 Action = e => false
             };
             return r;
