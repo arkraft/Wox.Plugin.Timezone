@@ -91,8 +91,8 @@ namespace Wox.Plugin.Timezone.Entities {
 
         public string IcoPath {
             get {
-                if (Country != null && Country == "") {
-                    return "flags\\" + Country.ToLower().Replace(' ', '_');
+                if (Country != null && Country != "") {
+                    return "flags\\" + Country.ToLower().Replace(' ', '_') + ".png";
                 }
                 return "flags\\_no_flag.png";
             }
