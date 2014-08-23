@@ -6,7 +6,7 @@
     "Author":"arkraft",
     "Version":"1.0",
     "Language":"csharp",
-    "Website":"http://www.getwox.com/plugin",
+    "Website":"https://github.com/arkraft/Wox.Plugin.Timezone/",
     "ExecuteFileName":"Wox.Plugin.Timezone.dll",
     "IcoPath":"kworldclock.png"
 }
