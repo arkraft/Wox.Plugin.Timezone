@@ -19,3 +19,7 @@ To remove a city from your list type ``tz remove``. All your current cities will
 
 ![image](http://www.ultraimg.com/images/tz_remove.gif)
 
+## About
+
+- Flag icons: downloaded from [www.customicondesign.com](http://www.customicondesign.com/free-icons/flag-icon-set/all-in-one-country-flag-icon-set/)
+- Plugin icon: downloaded from [iconfinder.com](https://www.iconfinder.com/icons/1408/clock_time_zone_world_icon)
